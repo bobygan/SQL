@@ -1,0 +1,20 @@
+CREATE TABLE Employees (
+EmployeeID NUMBER,
+CONSTRAINT Employee_PK PRIMARY KEY (EmployeeID),
+LastName NVARCHAR2(50),
+FirstName NVARCHAR2(50),
+Title NVARCHAR2(50),
+TitleOfCourtesy NVARCHAR2(50),
+BirthDate DATE,
+HireDate DATE,
+Address NVARCHAR2(100),
+City NVARCHAR2(50),
+Region NVARCHAR2(50),
+PostalCode NUMBER,
+Country NVARCHAR2(50),
+HomPhone NUMBER,
+Extension NUMBER,
+Photo BINARY_DOUBLE,
+Notes NVARCHAR2(100),
+NReportsTo nvarchar2(100)
+);

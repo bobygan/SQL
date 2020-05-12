@@ -1,0 +1,7 @@
+CREATE TABLE user(
+id INT,
+CONSTRAINT UserID_PK PRIMARY KEY (id),
+title VARCHAR(64),
+description  TEXT,
+ip VARCHAR(20)
+);
